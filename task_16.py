@@ -14,9 +14,9 @@ import random
 N = int(input("Введите количество элементов массива: "))
 A = []
 for i in range(N):
-    A.append(random.randint(1, 11))
+    A.append(random.randint(1, 11)) #диапазон взят для примера
 print(*A)
-X = random.randint(1, 11)
+X = random.randint(1, 11) #диапазон взят для примера
 print(X)
 count = 0
 for i in A:
